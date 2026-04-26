@@ -1,0 +1,28 @@
+
+PREDICTIVE CREDIT RISK ANALYSIS - SUMMARY REPORT
+====================================================================================================
+
+DATASET OVERVIEW:
+  Total Samples: 30,000
+  Default Cases: 6,636 (22.12%)
+  Non-Default Cases: 23,364 (77.88%)
+  Class Imbalance Ratio: 1:3.52
+
+TRAIN-TEST SPLIT:
+  Training Samples: 21,000 (70%)
+  Test Samples: 9,000 (30%)
+
+MODEL PERFORMANCE:
+  Best Model: Gradient Boosting
+  AUC-ROC: 0.774861
+  Accuracy: 0.816667
+  Precision: 0.654020
+  Recall: 0.363636
+  F1-Score: 0.467398
+
+TOP 5 PREDICTIVE FEATURES:
+  1. PAY_0: 0.285984
+  2. BILL_AMT1: 0.060522
+  3. PAY_2: 0.054821
+  4. PAY_AMT3: 0.047781
+  5. AGE: 0.046666
